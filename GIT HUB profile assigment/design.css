@@ -1,0 +1,94 @@
+.top {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  background: rgb(94, 92, 92);
+  width: 100vw;
+  height: calc(100vh - 94vh);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.icon-div {
+  /* display: inline; */
+  width: calc(100% - 70vw);
+  position: static;
+}
+
+.header-div {
+  width: calc(100% - 60vw);
+
+  text-align: center;
+  font-size: larger;
+}
+
+.content {
+  width: 100vw;
+  height: calc(100vh - 7vh);
+  position: relative;
+  top: 1px;
+  background: rgba(206, 199, 199, 0.962);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aside-div {
+  width: calc(100% - 70vw);
+  height: calc(100% - 20vh);
+  position: relative;
+  top: calc(100% - 85vh);
+  left: calc(100% - 98vw);
+  background: black;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.content-div {
+  margin: 5px;
+  width: calc(100% - 40vw);
+  height: calc(100% - 20vh);
+  position: relative;
+  top: calc(100% - 85vh);
+  left: calc(100% - 95vw);
+  /* background: black;
+  border: 2px solid; */
+  border-radius: 25px;
+}
+
+.content-div-search {
+  width: calc(100% - 3vh);
+  height: calc(100% - 65vh);
+  border: 2px;
+  display: block;
+  background: black;
+  color: white;
+  text-align: left;
+  font-size: small;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+
+.content-div-1 {
+  width: calc(100% - 95vh);
+  height: calc(100% - 46vh);
+  border: 2px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  background: black;
+  border-radius: 25px;
+}
+
+.content-div-2 {
+  width: calc(100%);
+  height: calc(100% - 50vh);
+  border: 2px;
+  display: inline-block;
+  border-radius: 25px;
+  background: black;
+}
